@@ -5,6 +5,7 @@
 !.gitignore
 !.gitattributes
 !readme.md
+!license
 
 # re-include project related stuff
 !/source/
