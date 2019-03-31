@@ -2,7 +2,7 @@
 **Note:** This repository contains the R18-R19 version. For R20+, go to: https://github.com/mp5gosu/InstanceMan-R20
 
 ## Download
-R20+: https://github.com/mp5gosu/InstanceMan-R20/releases/latest
+R20+: https://github.com/mp5gosu/InstanceMan-R20/releases/latest   
 R18-R19: https://github.com/mp5gosu/InstanceMan-R18/releases/latest
 
 ## Overview
