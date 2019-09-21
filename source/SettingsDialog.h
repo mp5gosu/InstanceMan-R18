@@ -9,7 +9,7 @@ class SettingsDialog : public GeDialog
 INSTANCEOF(SettingsDialog, GeDialog)
 
 public:
-	Bool CreateLayout() override
+	Bool CreateLayout()
 	{
 		SetTitle(resource.LoadString(IDS_SETTINGSDIALOG_TITLE));
 		GroupBegin(0, BFH_SCALEFIT | BFV_TOP, 2, 0, "", BFV_GRIDGROUP_EQUALCOLS);
@@ -20,14 +20,14 @@ public:
 		return true;
 	}
 
-	Bool InitValues() override
+	Bool InitValues()
 	{
 		// Populate cycle with available instance modes
 		SetBool(IDS_INSTANCEMODE, GetData());
 		return true;
 	}
 
-	Bool Command(Int32 id, const BaseContainer& msg) override
+	Bool Command(Int32 id, const BaseContainer& msg)
 	{
 		SetData(); // Save the current selected instance mode
 		return GeDialog::Command(id, msg);
